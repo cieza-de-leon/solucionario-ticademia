@@ -3,6 +3,63 @@
 #include "modulo_1.h"
 
 
+int m1_indice(int ejercicio) {
+    switch (ejercicio) {
+        case 1:
+            m1_e01();
+            break;
+        case 2:
+            m1_e02();
+            break;
+        case 3:
+            m1_e03();
+            break;
+        case 4:
+            m1_e04();
+            break;
+        case 5:
+            m1_e05();
+            break;
+        case 6:
+            m1_e06();
+            break;
+        case 7:
+            m1_e07();
+            break;
+        case 8:
+            m1_e08();
+            break;
+        case 9:
+            m1_e09();
+            break;
+        case 10:
+            m1_e10();
+            break;
+        case 11:
+            m1_e11();
+            break;
+        case 12:
+            m1_e12();
+            break;
+        case 13:
+            m1_e13();
+            break;
+        case 14:
+            m1_e14();
+            break;
+        case 15:
+            m1_e15();
+            break;
+        case 16:
+            m1_e16();
+            break;
+        default:
+            printf("\x1b[31mEl ejercicio %d este módulo aun no está disponible\x1b[0m\n", ejercicio);
+            break;
+    }
+    return 0;
+}
+
 int m1_e01() {
     int a, b;
     printf("Valor del ángulo \"a\": ");

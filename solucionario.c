@@ -29,63 +29,10 @@ int main() {
                 printf("\x1b[31m%d no es un ejercicio válido\x1b[0m\n", ejercicio);
                 goto modulo_1;
             }
-            switch (ejercicio) {
-                case 1:
-                    m1_e01();
-                    goto modulo_1;
-                case 2:
-                    m1_e02();
-                    goto modulo_1;
-                case 3:
-                    m1_e03();
-                    goto modulo_1;
-                case 4:
-                    m1_e04();
-                    goto modulo_1;
-                case 5:
-                    m1_e05();
-                    goto modulo_1;
-                case 6:
-                    m1_e06();
-                    goto modulo_1;
-                case 7:
-                    m1_e07();
-                    goto modulo_1;
-                case 8:
-                    m1_e08();
-                    goto modulo_1;
-                case 9:
-                    m1_e09();
-                    goto modulo_1;
-                case 10:
-                    m1_e10();
-                    goto modulo_1;
-                case 11:
-                    m1_e11();
-                    goto modulo_1;
-                case 12:
-                    m1_e12();
-                    goto modulo_1;
-                case 13:
-                    m1_e13();
-                    goto modulo_1;
-                case 14:
-                    m1_e14();
-                    goto modulo_1;
-                case 15:
-                    m1_e15();
-                    goto modulo_1;
-                case 16:
-                    m1_e16();
-                    goto modulo_1;
-                default:
-                    printf("\x1b[31mEl ejercicio %d del módulo %d aun no está disponible\x1b[0m\n", ejercicio, modulo);
-                    goto modulo_1;
-            }
+            m1_indice(ejercicio);
+            goto modulo_1;
         default:
             printf("\x1b[31mEl módulo %d aun no está disponible\x1b[0m\n", modulo);
             goto seleccionar_modulo;
     }
-
-    return 0;
 }

@@ -1,7 +1,7 @@
 #ifndef SOLUCIONARIO_TICADEMIA_MODULO_1_H
 #define SOLUCIONARIO_TICADEMIA_MODULO_1_H
 
-
+int m1_indice(int ejercicio);
 int m1_e01();
 int m1_e02();
 int m1_e03();
