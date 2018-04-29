@@ -4,3 +4,4 @@ project(solucionario_ticademia C)
 set(CMAKE_C_STANDARD 11)
 
 add_executable(101 101.c)
+add_executable(102 102.c)
