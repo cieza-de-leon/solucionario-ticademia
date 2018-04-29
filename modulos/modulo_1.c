@@ -62,6 +62,9 @@ int m1_indice(int ejercicio) {
         case 19:
             m1_e19();
             break;
+        case 20:
+            m1_e20();
+            break;
         default:
             printf("\x1b[31mEl ejercicio %d este módulo aun no está disponible\x1b[0m\n", ejercicio);
             break;
@@ -267,6 +270,17 @@ int m1_e19() {
     printf("Distancia en pies del hombre al árbol pequeño: ");
     scanf("%d", &a);
     printf("Respuesta: \x1B[32m%.2f\x1B[0m\n", 15. * (a + 125.) / a + 5.);
+
+    return 0;
+}
+
+
+int m1_e20() {
+    int s_ad, p;
+    printf("Valor del segmento \x1b[35mAD\x1B[0m: ");
+    scanf("%d", &s_ad);
+    p = (s_ad - 12) / 2;
+    printf("Respuesta: \x1B[32m%d\x1B[0m\n", 169 - p * p);
 
     return 0;
 }
