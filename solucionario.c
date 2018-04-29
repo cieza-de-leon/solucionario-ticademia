@@ -1,3 +1,26 @@
+/***
+ *      ____   ___  _    _   _  ____ ___ ___  _   _    _    ____  ___ ___
+ *     / ___| / _ \| |  | | | |/ ___|_ _/ _ \| \ | |  / \  |  _ \|_ _/ _ \
+ *     \___ \| | | | |  | | | | |    | | | | |  \| | / _ \ | |_) || | | | |
+ *      ___) | |_| | |__| |_| | |___ | | |_| | |\  |/ ___ \|  _ < | | |_| |
+ *     |_____ ___________\___/ _____|________|___\___/   __\_| \_\___\___/
+ *           |_   _|_ _/ ___|  / \  |  _ \| ____|  \/  |_ _|  / \
+ *             | |  | | |     / _ \ | | | |  _| | |\/| || |  / _ \
+ *             | |  | | |___ / ___ \| |_| | |___| |  | || | / ___ \
+ *             |_| |___\____/_/   \_\____/|_____|_|  |_|___/_/   \_\
+ *
+ *         _____ ___ __  _   ___ __  _    ____  _ ___ __  _ _____ __
+ *        |_   _| __|  \| | | __|  \| |  / _| || | __|  \| |_   _/  \
+ *          | | | _|| | ' | | _|| | ' | | \_| \/ | _|| | ' | | || /\ |
+ *          |_| |___|_|\__| |___|_|\__|  \__/\__/|___|_|\__| |_||_||_|
+ *
+ * Este solucionario no te enseñará a resolver los problemas planteados en la
+ * plataforma TICADEMIA. Úsalo con sabiduría, exclusivamente para saber si tu
+ * procedimiento está bien. Recuerda que al hacer trampa te la estás haciendo
+ * a ti mismo. ¡Muchos éxitos!
+ */
+
+
 #include <stdio.h>
 #include <stdlib.h>
 #include "funciones_auxiliares.h"
@@ -5,6 +28,7 @@
 
 
 int main() {
+    mostrar_advertencia();
     int modulo, ejercicio;
     seleccionar_modulo:
     printf("Módulo a abrir [1-8] (o 0 para salir): ");
