@@ -56,6 +56,9 @@ int m1_indice(int ejercicio) {
         case 17:
             m1_e17();
             break;
+        case 18:
+            m1_e18();
+            break;
         default:
             printf("\x1b[31mEl ejercicio %d este módulo aun no está disponible\x1b[0m\n", ejercicio);
             break;
@@ -241,6 +244,16 @@ int m1_e17() {
     printf("Valor del segmento AE: ");
     scanf("%d", &a);
     printf("Respuesta: \x1B[32m%d\x1B[0m\n", 6 * a / 7);
+
+    return 0;
+}
+
+
+int m1_e18() {
+    int a;
+    printf("Valor de la \x1b[35mprimera velocidad constante\x1B[0m: ");
+    scanf("%d", &a);
+    printf("Respuesta: \x1B[32m%d\x1B[0m\n", (int)((a / 40.0) * 100));
 
     return 0;
 }
