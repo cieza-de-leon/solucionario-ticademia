@@ -59,6 +59,9 @@ int m1_indice(int ejercicio) {
         case 18:
             m1_e18();
             break;
+        case 19:
+            m1_e19();
+            break;
         default:
             printf("\x1b[31mEl ejercicio %d este módulo aun no está disponible\x1b[0m\n", ejercicio);
             break;
@@ -254,6 +257,16 @@ int m1_e18() {
     printf("Valor de la \x1b[35mprimera velocidad constante\x1B[0m: ");
     scanf("%d", &a);
     printf("Respuesta: \x1B[32m%d\x1B[0m\n", (int)((a / 40.0) * 100));
+
+    return 0;
+}
+
+
+int m1_e19() {
+    int a;
+    printf("Distancia en pies del hombre al árbol pequeño: ");
+    scanf("%d", &a);
+    printf("Respuesta: \x1B[32m%.2f\x1B[0m\n", 15. * (a + 125.) / a + 5.);
 
     return 0;
 }

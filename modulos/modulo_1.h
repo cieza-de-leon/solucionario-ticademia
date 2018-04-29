@@ -20,5 +20,6 @@ int m1_e15();
 int m1_e16();
 int m1_e17();
 int m1_e18();
+int m1_e19();
 
 #endif //SOLUCIONARIO_TICADEMIA_MODULO_1_H
